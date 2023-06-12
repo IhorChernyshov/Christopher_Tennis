@@ -456,8 +456,6 @@ body {
 }
 
 .main-block__content {
-  padding-top: 15.625rem;
-  padding-bottom: 12.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -475,8 +473,9 @@ body {
 }
 
 .main-block__content p {
+  margin-top: 0.625rem;
+  padding: 1.25rem;
   letter-spacing: 1.5px;
-  font-size: 1.4375rem;
   border: 1px solid #fff;
   -webkit-box-shadow: 1px 1px 10px 5px rgba(82, 81, 81, 0.77);
           box-shadow: 1px 1px 10px 5px rgba(82, 81, 81, 0.77);
@@ -487,9 +486,12 @@ body {
   color: #23b123;
 }
 
+.main-block__content a {
+  text-transform: none;
+}
+
 .main-block__text {
   color: #ffffff;
-  font-size: 1.1875rem;
   line-height: 180%;
   max-width: 45.3125rem;
 }
@@ -1476,6 +1478,14 @@ body {
     padding-bottom: 12.5rem;
   }
 
+  .main-block__content p {
+    font-size: 1.25rem;
+  }
+
+  .main-block__text {
+    font-size: 1.25rem;
+  }
+
   .main-block__text:not(:last-child) {
     margin-bottom: 3rem;
   }
@@ -1728,6 +1738,14 @@ body {
 
   .main-block__content {
     padding-bottom: 3.125rem;
+  }
+
+  .main-block__content p {
+    font-size: 0.9375rem;
+  }
+
+  .main-block__text {
+    font-size: 1rem;
   }
 
   .main-block__text:not(:last-child) {
@@ -2305,7 +2323,7 @@ body {
 
 @media (max-width: 32.93625em) {
   .icons-main-block__item_5 {
-    top: 38.6036960986%;
+    top: 37.5770020534%;
   }
 }
 
@@ -2329,6 +2347,12 @@ body {
   }
 }
 
+@media (max-width: 28.68625em) {
+  .icons-main-block__item_2 {
+    top: 33.3333333333%;
+  }
+}
+
 @media (max-width: 28.12375em) {
   .pathway__image::before {
     -webkit-transform: translate(calc(-50% - 1.125rem), -19%);
@@ -2344,10 +2368,6 @@ body {
 }
 
 @media (max-width: 23.81125em) {
-  .icons-main-block__item_2 {
-    top: 32.0987654321%;
-  }
-
   .icons-main-block__item_5 {
     top: 32.8542094456%;
   }
@@ -2424,6 +2444,14 @@ body {
 
   .main-block__content {
     padding-bottom: calc(3.125rem + 9.375 * (((100vw - 20rem)) / ((83.125))));
+  }
+
+  .main-block__content p {
+    font-size: calc(0.9375rem + 0.3125 * (((100vw - 20rem)) / ((83.125))));
+  }
+
+  .main-block__text {
+    font-size: calc(1rem + 0.25 * (((100vw - 20rem)) / ((83.125))));
   }
 
   .main-block__text:not(:last-child) {
