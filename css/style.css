@@ -474,6 +474,19 @@ body {
   text-align: center;
 }
 
+.main-block__content p {
+  letter-spacing: 1.5px;
+  font-size: 1.4375rem;
+  border: 1px solid #fff;
+  -webkit-box-shadow: 1px 1px 10px 5px rgba(82, 81, 81, 0.77);
+          box-shadow: 1px 1px 10px 5px rgba(82, 81, 81, 0.77);
+  text-transform: capitalize;
+}
+
+.main-block__content span {
+  color: #23b123;
+}
+
 .main-block__text {
   color: #ffffff;
   font-size: 1.1875rem;
@@ -2284,6 +2297,18 @@ body {
   }
 }
 
+@media (max-width: 33.18625em) {
+  .icons-main-block__item_7 {
+    display: none;
+  }
+}
+
+@media (max-width: 32.93625em) {
+  .icons-main-block__item_5 {
+    top: 38.6036960986%;
+  }
+}
+
 @media (max-width: 31.24875em) {
   .icons-main-block__item_2 {
     left: 9.2592592593%;
@@ -2318,9 +2343,13 @@ body {
   }
 }
 
-@media (max-width: 25.74875em) {
-  .icons-main-block__item_7 {
-    display: none;
+@media (max-width: 23.81125em) {
+  .icons-main-block__item_2 {
+    top: 32.0987654321%;
+  }
+
+  .icons-main-block__item_5 {
+    top: 32.8542094456%;
   }
 }
 
